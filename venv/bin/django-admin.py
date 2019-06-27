@@ -1,4 +1,4 @@
-#!/home/shakib/PycharmProjects/pollsapi/venv/bin/python
+#!/home/limon/PycharmProjects/pollsapi/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":

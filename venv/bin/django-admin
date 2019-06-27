@@ -1,5 +1,4 @@
-#!/home/shakib/PycharmProjects/pollsapi/venv/bin/python
-
+#!/home/limon/PycharmProjects/pollsapi/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
