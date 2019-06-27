@@ -1,10 +1,12 @@
 from django.contrib import admin
 
 # Register your models here.
+from polls.models import Poll, Choice
 
 
-from.models import Question
-from.models import Choice
+@admin.register(Poll)
+class PollAdmin(admin.ModelAdmin):
+    fields = ["question", "created_by", "pub_date"]
+    readonly_fields = ["pub_date"]
 
-admin.site.register(Question)
 admin.site.register(Choice)
